@@ -29,7 +29,7 @@ def read_temp():
 
 while True: 
     t = read_temp()
-    f = urllib.request.urlopen('http://api.thingspeak.com/update?api_key=L5MS6U8M64OSV0CR&field1='+ str(t))
+    f = urllib.request.urlopen('http://api.thingspeak.com/update?api_key=INCERT YOUR WRITE API_KEY&field1='+ str(t))
     html = int(f.read())
     print(html, t)
     time.sleep(60)
