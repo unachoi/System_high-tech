@@ -1,2 +1,25 @@
-관련유투브영상URL 입니다.
+- Introduction: Raspberry Pi에 DS18B20 온도센서 구동시키고, 
+               Thing Speak에 데이터를 전송하여 실시간Temperature를
+               그래프로 그려 나타내는것을 실습한다. 
+
+- What You'll Need?
+  1. Raspberry Pi
+  2. DS18B20 sensor
+  3. Breadboard & Jumper Wires
+  4. 10K Ohm
+  5. Think Speak Accounts
+
+- Process
+  1. Signup for Thingspeak --> Thingspeak의 계정을 만든다.
+  2. Login to Thingspeak --> Thingspeak에 로그인 한다.
+  3. Create a Channel for Your Data --> Thingspeak에 실시간 온도를 그래프에 나타내기위해 새로운 channel을 만든다.
+  4. Name Your Project --> 채널생성할때, 프로젝트의 이름을 적는다. Eg:Temperature
+  5. Update the Channel --> 채널 프로젝트이름, field이름, pri/pub설정 등을 기입한 후 채널 생성한다.
+  6. Get an API Key --> 채널 생성후, API Key를 확인한다. Write와 Read Key중 Write Key를 알아낸다.(파이썬 코드에서 사용!)
+  7. Check the Graph --> 새로 만들어진 그래프를 확인한다. (field명 확인필수!)
+  8. Open the Python Example --> 파이썬 코드를 작성한다.
+  9. Run the Code --> 코드를 실행한다.
+  10. Check the Graph --> 코드 실행후, 실시간으로 측정되는 온도가 Thingspeak그래프에 그려지는지 확인한다.
+
+- Video: 이 영상은 Thing Speak에 데이터를 전송하여 그래프로 나타내는것을 찍은 유투브영상URL이다. 
 https://youtu.be/eQwtv85Iz00
