@@ -1,0 +1,7 @@
+-Definition : Raspberry Pi에 Python으로 LED를 10개 연결하여 뱀이 기어가는 형태를 python으로 구현하였다.
+
+-LED Circuit : 이번 GPIO Output테스트에서 사용될 GPIO는 8,5,7,11,13,15,19,21,23,8번이다. 이 번호는 BOARD의 PIN#이다. LED 10개, 점퍼선이 사용되었다. 
+GPIO의 Output값을 GPIO.HIGH로 설정해 주면 LED가On이 되어 켜지고 GPIO.LOW로 설정해 주면 LED가 Off가 되어 꺼지는 회로로 구성되어있다.
+
+-Video : 유투브에 올린 영상URL
+https://youtu.be/Y23W-WkeWvU
