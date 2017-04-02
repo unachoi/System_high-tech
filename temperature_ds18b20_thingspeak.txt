@@ -21,5 +21,8 @@
   9. Run the Code --> 코드를 실행한다.
   10. Check the Graph --> 코드 실행후, 실시간으로 측정되는 온도가 Thingspeak그래프에 그려지는지 확인한다.
 
+- Thingspeak public Channel URL
+https://thingspeak.com/channels/249291
+
 - Video: 이 영상은 Thing Speak에 데이터를 전송하여 그래프로 나타내는것을 찍은 유투브영상URL이다. 
 https://youtu.be/eQwtv85Iz00
